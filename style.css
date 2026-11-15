@@ -1,0 +1,11 @@
+:root{color-scheme:light dark;--bg:#f5f2ea;--fg:#17171a;--muted:#6b6860;--link:#1f5fbf}
+@media(prefers-color-scheme:dark){:root{--bg:#17171a;--fg:#f5f2ea;--muted:#a09c92;--link:#8ab4ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif}
+main{max-width:680px;margin:0 auto;padding:32px 20px 64px}
+nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:8px;font-size:15px}
+h1{font-size:30px;line-height:1.25;margin:28px 0 4px}
+h2{font-size:20px;margin:32px 0 6px}
+a{color:var(--link)}
+.muted,footer{color:var(--muted);font-size:14px}
+footer{margin-top:48px}
+li{margin:4px 0}
