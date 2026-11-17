@@ -14,8 +14,10 @@ regular expressions, receipt samples, or private data belong in this feed.
 The manifest contains only `schemaVersion: 1`, a positive integer `version`, and
 `sha256` (64 lowercase hexadecimal characters). The digest covers the **exact
 downloaded pack bytes**, including whitespace and the final newline. The pack
-contains `schemaVersion: 1`, the same `version`, and `languages` with all five keys:
-`zh-Hans`, `zh-Hant`, `ja`, `ko`, and `en`. Each language contains:
+contains `schemaVersion: 1`, the same `version`, and a `languages` dictionary.
+The first pack includes `zh-Hans`, `zh-Hant`, `ja`, `ko`, and `en`. Future packs
+can add BCP 47 language tags. Their terms apply to recognized or pasted text
+as soon as the pack is installed. Each language contains:
 
 - `categories`: built-in category IDs mapped to arrays of literal keywords.
   The only IDs are `food`, `transport`, `shopping`, `home`, `health`, `digital`,
