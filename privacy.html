@@ -9,15 +9,18 @@
 <body><main>
 <nav><a href="index.html">首页</a> <a href="privacy.html">隐私政策</a> <a href="support.html">支持</a> <a href="privacy-en.html" lang="en">English</a></nav>
 <h1>隐私政策</h1>
-<p class="muted">生效日期：<time datetime="2026-11-15">2026-11-15</time> · 适用于 iOS 版 Nib</p>
+<p class="muted">生效日期：<time datetime="2026-11-17">2026-11-17</time> · 适用于 iOS 版 Nib</p>
 <h2>概要</h2>
-<p>Nib 不收集任何个人数据。应用没有账号、没有开发者服务器、没有广告、没有统计分析或跟踪，也不包含第三方 SDK。应用本身不向开发者或任何第三方发送你的账目、图片或使用情况。</p>
+<p>Nib 没有账号、广告、统计分析或跟踪，也不包含第三方 SDK。账目、图片、文字识别、分类与备注建议均在本机处理，不上传给开发者。可选的官方规则下载只请求固定的公开静态文件，托管服务可能处理下文所述的请求元数据。</p>
 <h2>应用在设备上处理的内容</h2>
 <ul>
 <li><strong>账目</strong>：金额、分类、备注、日期等保存为你设备上的 Markdown 账本文件。</li>
 <li><strong>图片</strong>：你拍摄、从相册选择、粘贴或通过系统分享送入的截图与小票照片，仅在本机用 Apple 的系统文字识别功能读取金额与文字。原图保存在本机，默认在入账 7 天后自动删除，可在设置中调整；尚未确认的条目不会被删图。</li>
 <li><strong>设置</strong>：外观、本位币、图片保留天数等偏好保存在本机。</li>
 </ul>
+<h2>可选的官方规则下载</h2>
+<p>兼容版本的 Nib 默认开启官方规则下载，可在设置中关闭。开启后，检查成功后间隔 72 小时再检查；检查失败后，使用应用时可在一小时后重试。进入前台或打开设置均可触发到期检查，从 GitHub Pages 的固定地址下载版本清单及对应的静态 JSON 规则文件。所有语言共用同一份规则包，不根据界面语言、设备地区或货币选择下载内容。</p>
+<p>Nib 不会在请求中附带小票、图片、识别文字、账本、使用记录或由 Nib 添加的用户／设备标识符。GitHub Pages 仍会接收常规网络请求元数据，例如 IP 地址、请求时间、请求路径及标准请求头，适用下方链接的 GitHub 隐私声明。下载的规则只在本机用于分类和备注建议，不改写原始小票备注文字或已有账目。关闭下载、离线或更新校验失败时，应用继续使用已验证的本机规则或内置规则。</p>
 <h2>权限</h2>
 <ul>
 <li><strong>相机</strong>：仅在你选择拍照记账时使用，照片只在本机识别。</li>
@@ -32,9 +35,9 @@
 <h2>数据的导出与删除</h2>
 <p>你可以在应用内导出全部账目。删除账目、删除账本文件或卸载应用即可移除相应数据；存放在 iCloud 云盘或其他文件夹中的账本文件需要你在“文件”App 中自行删除。</p>
 <h2>儿童隐私</h2>
-<p>Nib 不面向儿童收集信息，也不收集任何人的个人信息。</p>
+<p>Nib 不面向儿童收集信息。官方规则下载所涉及的托管请求元数据见上文。</p>
 <h2>本网站</h2>
-<p>本页面由 GitHub Pages 托管，不含统计脚本或第三方字体。GitHub 可能处理访问请求信息（例如 IP 地址），适用 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+<p>本网站与官方规则静态文件由 GitHub Pages 托管，不含统计脚本或第三方字体。GitHub 可能处理网站访问及规则下载的请求信息（例如 IP 地址），适用 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
 <h2>变更与联系</h2>
 <p>政策如有重大变更，将更新本页的生效日期。开发者：keithxc。如有疑问，请通过<a href="support.html">支持页面</a>联系。</p>
 <footer>Nib · <a href="https://github.com/keithxc">keithxc</a></footer>

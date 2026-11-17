@@ -9,15 +9,18 @@
 <body><main>
 <nav><a href="index-en.html">Home</a> <a href="privacy-en.html">Privacy policy</a> <a href="support-en.html">Support</a> <a href="privacy.html" lang="zh-Hans">简体中文</a></nav>
 <h1>Privacy policy</h1>
-<p class="muted">Effective <time datetime="2026-11-15">2026-11-15</time> · Nib for iOS</p>
+<p class="muted">Effective <time datetime="2026-11-17">2026-11-17</time> · Nib for iOS</p>
 <h2>Summary</h2>
-<p>Nib does not collect any personal data. There is no account, no developer server, no advertising, no analytics or tracking, and no third-party SDK. The app itself does not send your entries, images or usage information to the developer or to any third party.</p>
+<p>Nib has no account, advertising, analytics, tracking, or third-party SDK. Entries, images, text recognition, categorization, and note suggestions are processed on your device and are not uploaded to the developer. Optional official-rule downloads request only fixed public static files; the hosting service may process the request metadata described below.</p>
 <h2>What the app processes on your device</h2>
 <ul>
 <li><strong>Entries</strong>: amounts, categories, notes and dates are saved as Markdown ledger files on your device.</li>
 <li><strong>Images</strong>: screenshots and receipt photos that you capture, pick from Photos, paste or send through the system share sheet are read on the device with Apple’s built-in text recognition. Originals stay on the device and are deleted automatically 7 days after the entry is saved by default; you can change this in Settings. Images of unconfirmed items are kept.</li>
 <li><strong>Settings</strong>: preferences such as appearance, base currency and image retention are stored on the device.</li>
 </ul>
+<h2>Optional official-rule downloads</h2>
+<p>Compatible versions of Nib enable official-rule downloads by default; you can turn them off in Settings. When enabled, the next check is due 72 hours after a successful check; a failed check can retry after one hour while the app is in use. Entering the foreground or opening Settings can trigger a due check. It downloads a version manifest and the corresponding static JSON rules from fixed GitHub Pages URLs. All languages share one pack; interface language, device region, and currency do not select the download.</p>
+<p>Nib does not attach receipts, images, recognized text, ledger content, usage records, or user/device identifiers added by Nib to these requests. GitHub Pages still receives ordinary network request metadata, such as IP address, request time, requested path, and standard request headers, subject to the GitHub Privacy Statement linked below. Downloaded rules are used only on your device for category and note suggestions; they do not rewrite original receipt note text or existing entries. If downloads are disabled, the device is offline, or update validation fails, the app continues using validated local rules or its bundled fallback.</p>
 <h2>Permissions</h2>
 <ul>
 <li><strong>Camera</strong>: used only when you choose to photograph a receipt; the photo is recognized on the device.</li>
@@ -32,9 +35,9 @@
 <h2>Export and deletion</h2>
 <p>You can export all entries from within the app. Deleting entries, deleting ledger files or removing the app removes the corresponding data; ledger files kept in iCloud Drive or another folder must be deleted by you in the Files app.</p>
 <h2>Children</h2>
-<p>Nib is not directed at children and does not collect personal information from anyone.</p>
+<p>Nib is not directed at children. Hosting request metadata associated with official-rule downloads is described above.</p>
 <h2>This website</h2>
-<p>This page is hosted by GitHub Pages, without analytics scripts or third-party fonts. GitHub may process request information such as your IP address; the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> applies.</p>
+<p>This website and the static official-rule files are hosted by GitHub Pages, without analytics scripts or third-party fonts. GitHub may process request information, such as your IP address, for website visits and rule downloads; the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> applies.</p>
 <h2>Changes and contact</h2>
 <p>Material changes update the effective date on this page. Developer: keithxc. For questions, use the <a href="support-en.html">support page</a>.</p>
 <footer>Nib · <a href="https://github.com/keithxc">keithxc</a></footer>
